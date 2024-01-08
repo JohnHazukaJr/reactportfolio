@@ -1,0 +1,24 @@
+/* src/components/portfolio.css */
+
+.portfolio-section {
+  width: 100%; /* Full width */
+  max-width: 100%; /* Ensures that it spans the maximum width */
+  margin: 0 auto; /* Centers the section if there's a specified max-width */
+  padding: 40px 20px; /* Adds padding inside the section; adjust as needed */
+  box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+  padding-top: -10em;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates a responsive grid */
+  gap: 20px; /* Adjust the space between items */
+}
+
+.portfolio-item {
+  background-color: #ffffff; /* Card background color */
+  padding: 20px; /* Padding inside each card */
+  border-radius: 8px; /* Rounded corners for the cards */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for depth */
+  /* Other styles as needed */
+}

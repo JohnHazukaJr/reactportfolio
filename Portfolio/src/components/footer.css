@@ -1,0 +1,10 @@
+/* src/components/Footer/Footer.css */
+
+.footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-top: 1px solid #eaeaea;
+  }
+  
